@@ -6,12 +6,19 @@
     }
 
     &__logo {
-        max-width: 80px;
+        max-width: 90px;
         width: 100%;
     }
 
     &__links {
         display: flex;
-        &__item {}
+
+        &__item {
+            margin: 5px;
+        }
     }
-} 
+
+    .button {
+        height: 50px;
+    }
+}
